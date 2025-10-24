@@ -35,8 +35,8 @@ x-shared:
       NGINX_SERVER_NAME:
       NGINX_SERVER_SCHEME:
       RAILS_TRUSTED_PROXIES:
-      ZAMMAD_HTTP_TYPE:
-      ZAMMAD_FQDN: https://zammad.skymergenetwork.com
+      ZAMMAD_HTTP_TYPE: https
+      ZAMMAD_FQDN: zammad.skymergenetwork.com
       ZAMMAD_WEB_CONCURRENCY:
       ZAMMAD_PROCESS_SESSIONS_JOBS_WORKERS:
       ZAMMAD_PROCESS_SCHEDULED_JOBS_WORKERS:
