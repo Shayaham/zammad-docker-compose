@@ -97,9 +97,9 @@ services:
     <<: *zammad-service
     command: ["zammad-nginx"]
     expose:
-      - "${NGINX_PORT:-8380}"
+      - "${NGINX_PORT:-8361}"
     ports:
-      - "${NGINX_EXPOSE_PORT:-8380}:${NGINX_PORT:-8380}"
+      - "${NGINX_EXPOSE_PORT:-8361}:${NGINX_PORT:-8361}"
     depends_on:
       - zammad-railsserver
 
